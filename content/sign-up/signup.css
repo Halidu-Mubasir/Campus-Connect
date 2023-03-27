@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+:root {
+    /* --background: #800000; */
+    --foreground: #fff;
+    --btn-color: #db6400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/Ashesi_Dining_h.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--background);
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 1vh;
+    margin-bottom: 2.5vh;
+}
+
+.container {
+    background-color: var(--foreground);
+    display: absolute;
+    text-align: center;
+    width: 25rem;
+    padding: 1rem;
+    margin-top: 10vh;
+    border-radius: 0.3rem;
+}
+
+form {
+    padding: 1rem;
+}
+
+form input {
+    background-color: #f3f3f3e0;
+    width: 100%;
+    font-size: 0.82rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    margin-top: 0.6rem;
+    margin-left: -1rem;
+    padding: 0.75rem 0.8rem;
+}
+
+form input:hover {
+    outline: 1px solid var(--btn-color);
+}
+
+form label {
+    margin-left: -2.2rem;
+    color: #697A89;
+    opacity: 0.7;
+}
+
+.r_input {
+    margin-top: 0.3rem;
+}
+
+form label img {
+    margin-bottom: -0.2rem;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    margin-right: 0.23rem;
+}
+
+.desc, .txt {
+    color: #7E8081;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
+
+#dob {
+    margin-left: 0.03rem;
+    color: #56626d;
+}
+
+.txt {
+    text-align: left;
+}
+
+.sign__up {
+    color: #1E1E1E;
+    font-size: 0.7rem;
+    margin: 0.7rem 0;
+}
+
+.signin {
+    color: #1E1E1E;
+    font-size: 0.7rem;
+    margin: 0.7rem 0;
+}
+
+.signin a {
+    text-decoration: none;
+    color: #db6400;
+    cursor: pointer;
+}
+
+.signup__btn {
+    margin-top: 1.3rem;
+}
+
+.signup__btn {
+    width: 100%;
+    color: #fff;
+    background-color: var(--btn-color);
+    padding: 0.76rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+}
+
+.login__btn:hover, .signup__btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.error_messages {
+    font-size:0.8rem; color:orangered; float:left; margin-left:1rem;
+}
+

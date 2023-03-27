@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+
+:root {
+  --dark_blue: #923D41;
+  --white_bg: #ffffff;
+}
+
+*, body {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-sidebar {
+    width: 270px;
+    padding: 20px;
+    display: block;
+    background-color: var(--dark_blue);
+    overflow: hidden;
+}
+
+#add, #post {
+    margin-left: -30px;
+}
+
+.posting {
+    margin-bottom: 220px;
+}
+
+.main-content {
+    width: 90%;
+}
+
+.post-main {
+    width: 100%;
+    display:flex;
+}
+
+.primary__navigation div {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 0 0;
+    margin-top: 0.5rem;
+}
+
+.button-action {
+    background-color: rgba(209, 229, 238, 0.25);
+    display: flex;
+    width: 78%;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 1.5% 5.5%;
+    margin-left: 9.6vw;
+    margin-right: 12.8vw;
+    margin-top: 1rem;
+
+    height: 45px;
+    border-radius: 10px  10px  0 0px;
+    box-shadow: rgba(75, 75, 129, 0.25) 0px 30px 60px -12px inset, rgba(77, 65, 65, 0.3) 0px 18px 36px -18px inset;
+}
+
+#post-action1, #post-action2 {
+    width: 55%;
+    height: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    color: #923D41;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_option {
+    text-decoration: none;
+    color: red;
+}
+
+.fa-circle {
+    visibility: hidden;
+    margin-right: 9px;
+}
+
+#damn3 {
+    visibility: visible;
+}
+
+#post-page>* {
+    color: #5a6eb8;
+}
+
+#post-action1:hover, #post-action2:hover {
+    transform: scaleX(1.015);
+    transition: s0.3s ease-in-out;
+}
+
+#post-action1 {
+    background-color:#923D41;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+}
+
+.problems {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding: 1.5% 4%;
+    width: 90%;
+    height: 74vh;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    margin-top: 2vh;
+    margin-left: 4.8vw;
+}
+
+.public, .private{
+    width: 50%;
+    padding: 0 2% 1%;
+}
+
+.a-bug {
+    position: relative;
+    width: 100%;
+    border-radius: 10px !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.a-bug:hover {
+    transform: scaleX(1.008);
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+
+.btns {
+    float: right;
+}
+
+#bug {
+     width: 100%;
+     border-radius: 10px !important;
+     height: 300px;
+}
+
+.brief_edit {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    align-items: center;
+}
+
+.fa-edit {
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    margin-right: 0.2rem;
+}
+
+#bug_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.particulars {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2% 4%;
+    opacity: 0.9;
+}
+
+.edit-post, .delete-post{
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.delete-post {
+    margin-right: 1rem;
+}
+
+.fa-trash-o {
+    font-size: 1rem;
+}
+
+.edit, .delete {
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.2rem;
+    background-color: #33333334;
+}
+
+.edit{
+    color: #fff;
+    background-color: #333;
+    margin-top: 0.2rem;
+}
+
+.delete {
+    color: red;
+}
+
+#loggin-out {
+    outline: none;
+    border: none;
+    background-color: #923D41;
+}
+

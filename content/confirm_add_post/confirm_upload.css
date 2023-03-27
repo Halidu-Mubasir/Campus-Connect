@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+
+:root {
+  --dark_blue: #923D41;
+  --white_bg: #ffffff;
+}
+
+*, body {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard-home {
+    display: flex;
+    overflow: hidden;
+}
+
+.menu-sidebar {
+    width: 270px;
+    padding: 20px;
+    display: block;
+    background-color: var(--dark_blue);
+    overflow: hidden;
+}
+
+.fas {
+    color: #ffffff;
+}
+
+.fa-bars {
+    float: right;
+}
+
+#com_logo {
+    width: 30%;
+}
+
+.logoName {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+#comp_name {
+    font-size: 2.2rem;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: 7px;
+}
+
+.home-option {
+    cursor: pointer;
+    margin: 10% 0 5% 10%;
+    display: flex;
+    align-items: center;
+}
+
+.home-option:hover > .fas {
+    color: #27409c;
+}
+
+.nav_option {
+    text-decoration: none;
+}
+
+#add-page > *{
+    color: #27409c;
+    visibility: visible;
+}
+
+.fa-circle {
+    visibility: hidden;
+    margin-right: 9px;
+}
+
+.fa-circle.active {
+    visibility: visible;
+}
+
+.home-option span {
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#add, #post {
+    margin-left: 22px;
+}
+
+.posting {
+    margin-bottom: 220px;
+}
+
+.main-content {
+    width: 90%;
+}
+
+.header-content {
+    width: 100%;
+    padding: 0 2% 0 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 1% 0 2.5%;
+}
+
+.user-power {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.has-search {
+    width: 70%;
+    margin: 3%;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 100% !important;
+    margin-right: 3.5rem;
+    background-color: rgba(209, 229, 238, 0.25);
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    /* line-height: 2.375rem; */
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#dashboard-header {
+    font-size: 2.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #923D41;
+}
+
+.header *{
+    margin: 0 5px;
+}
+
+.fa-user {
+    margin-left: 5%;
+}
+
+.fa-bell {
+     margin-left: 2%;
+     cursor: pointer;
+}
+
+.add-post-main {
+    width: 100%;
+    display:flex;
+}
+
+
+.sucess-hint {
+    width: 95%;
+    background-color: #fff;
+    height: 70vh;
+    margin: 0.5% 2%;
+    padding: 3% 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: #923D41;
+}
+
+#up_status, .message {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: inherit;
+    text-align: center;
+    color: inherit;
+    margin-bottom: 1.5rem;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #008000;
+    margin-top: 1.5rem;
+}
+
+.fa-check {
+    color: #008000;
+    margin-left:15px;
+}
+
+#direction, #direction-top {
+    color: #333;
+    text-align: center;
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+#direction-top {
+    margin-top: 3%;
+    margin-bottom: 1rem;
+}
+
+.action-mern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.4rem;
+}
+
+#another-post, #posts {
+    width: 320px;
+    height: 45px;
+    background-color: #923D41;
+    color: #ffffff;
+    margin-top: 4%;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 2% 2% 0;
+    outline: none;
+    border: none;
+}
+
+#another-post:hover, #posts:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: 0.1rem solid #217170;
+}
+
+#another:hover, #another1:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+#p-description {
+    height: 100px !important;
+}
+
+#loggin-out {
+    outline: none;
+    border: none;
+    background-color: #923D41;
+}
